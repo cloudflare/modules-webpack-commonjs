@@ -1,4 +1,4 @@
-const slug = require("slug.txt")
+const slug = require("./slug.txt")
 
 exports.handlers = {
   async fetch(request, env) {
