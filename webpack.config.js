@@ -21,7 +21,7 @@ module.exports = {
   },
   plugins: [
     new CopyPlugin({
-      patterns: [{ from: 'src/slug.txt', to: 'slug.txt' }],
+      patterns: [{ from: 'src/slug.txt', to: 'slug.txt' }, { from: 'src/shim.mjs', to: 'shim.mjs' }],
     }),
   ],
 }
